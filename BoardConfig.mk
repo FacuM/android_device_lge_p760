@@ -23,9 +23,6 @@
 TARGET_KERNEL_CONFIG := cyanogenmod_p760_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/omap4-common
 
-#Device-specific backlight path 
-BACKLIGHT_PATH := "/sys/devices/platform/omap/omap_i2c.2/i2c-2/2-0036/brightness"
-
 #Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p760/bluetooth
 
