@@ -23,6 +23,3 @@
 TARGET_KERNEL_CONFIG := cyanogenmod_p760_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/omap4-common
 
-#Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p760/bluetooth
-
