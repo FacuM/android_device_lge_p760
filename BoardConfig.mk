@@ -20,7 +20,6 @@
 -include device/lge/u2-common/BoardCommonConfig.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_p760_defconfig
 TARGET_PREBUILT_KERNEL := device/lge/p760/zImage
 PRODUCT_COPY_FILES += \
 	$(TARGET_PREBUILT_KERNEL):kernel
