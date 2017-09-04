@@ -21,5 +21,6 @@
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_p760_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/omap4-common
-
+TARGET_PREBUILT_KERNEL := device/lge/p760/zImage
+PRODUCT_COPY_FILES += \
+	$(TARGET_PREBUILT_KERNEL):kernel
